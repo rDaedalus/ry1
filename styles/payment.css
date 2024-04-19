@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #B88E72;
+  display: flex;
+  justify-content: center;
+}
+
+.container-box{
+  width: 50%;
+  position: relative;
+}
+
+.logo{
+margin-top: 30px;
+position: absolute;
+left: 25%;
+}
+
+.payment-button{
+  width: 700px;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+}
+
+.payment-button button img{
+  width: 200px;
+}
+
+.payment-button button{
+  border: none;
+}
+
+.payment-button .gcash{
+  width: 200px;
+  height: 200px;
+  background-color: white;
+}
+
+.payment-button .cash{
+  width: 300px;
+  height: 400px;
+}
+
+.payment-button .gcash{
+  width: 300px;
+  height: 400px;
+}
